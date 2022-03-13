@@ -29,9 +29,7 @@ reg signed [11:0] cos = 1.0 * FXP_SCALE; //Initial condition
 reg signed [11:0] sin = 0.0;
 reg signed [11:0] angle = 0.0; //Running angle
 
-reg signed [11:0] atan[0:10] = { 804, 474, 250, 127, 63,
-                                 31, 15, 7, 3, 1,
-                                 0};
+reg signed [11:0] atan[0:10] = {804, 474, 250, 127, 63, 31, 15, 7, 3, 1, 0};
 
 reg signed [11:0] Kn = 0.607253 * FXP_SCALE;
 
@@ -71,7 +69,7 @@ begin
     cos_tmp = real'(cos_res);
     sin_real_res = sin_tmp/(FXP_SCALE**2);
     cos_real_res = cos_tmp/(FXP_SCALE**2);
-    $display("sin=%f, cos=%f", sin_res, cos_res);
+    //$display("sin=%f, cos=%f", sin_res, cos_res);
     $display("sin_real=%f, cos_real=%f", sin_real_res, cos_real_res);
 end
 endmodule
