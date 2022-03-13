@@ -151,4 +151,8 @@ begin
         endcase
     end
 end
+<<<<<<< HEAD
 endmodule
+=======
+endmodule
+>>>>>>> 5429148f5d7d99561ab25a3e0c55c8b084439dde

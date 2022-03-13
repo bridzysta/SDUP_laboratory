@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Mar 13 13:38:55 2022
+# Process ID: 18336
+# Current directory: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20804 C:\Users\dzial\Documents\Mikroelektronika_AGH\mgr\1_semestr\systemy_dedykowane_w_ukladach_programowalnych\1_lab\SDUP_laboratory\lab_1\lab_1.xpr
+# Log file: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1/vivado.log
+# Journal file: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1/lab_1.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1/lab_1.srcs/sources_1/new/cordic_rtl.sv w ]
+add_files C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1/lab_1.srcs/sources_1/new/cordic_rtl.sv
+update_compile_order -fileset sources_1
+file mkdir C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1/lab_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1/lab_1.srcs/sim_1/new/cordic_rtl_TB.sv w ]
+add_files -fileset sim_1 C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1/lab_1.srcs/sim_1/new/cordic_rtl_TB.sv
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source cordic_rtl_TB.tcl
+current_wave_config {Untitled 1}
+add_wave {{/cordic_rtl_TB/cordic/angle_in}} {{/cordic_rtl_TB/cordic/ready_out}} {{/cordic_rtl_TB/cordic/sin_out}} {{/cordic_rtl_TB/cordic/cos_out}} {{/cordic_rtl_TB/cordic/atan}} {{/cordic_rtl_TB/cordic/state}} {{/cordic_rtl_TB/cordic/angle}} {{/cordic_rtl_TB/cordic/t_angle}} {{/cordic_rtl_TB/cordic/sin}} {{/cordic_rtl_TB/cordic/cos}} {{/cordic_rtl_TB/cordic/sin_frac}} {{/cordic_rtl_TB/cordic/cos_frac}} {{/cordic_rtl_TB/cordic/atan_val}} {{/cordic_rtl_TB/cordic/sin_0}} {{/cordic_rtl_TB/cordic/cos_0}} {{/cordic_rtl_TB/cordic/sin_2}} {{/cordic_rtl_TB/cordic/cos_2}} {{/cordic_rtl_TB/cordic/sin_4}} {{/cordic_rtl_TB/cordic/cos_4}} {{/cordic_rtl_TB/cordic/sin_5}} {{/cordic_rtl_TB/cordic/cos_5}} {{/cordic_rtl_TB/cordic/sin_7}} {{/cordic_rtl_TB/cordic/cos_7}} {{/cordic_rtl_TB/cordic/sin_9}} {{/cordic_rtl_TB/cordic/cos_9}} {{/cordic_rtl_TB/cordic/i}} {{/cordic_rtl_TB/cordic/d}} 
+run all
+set_property -name {xsim.simulate.runtime} -value {5000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source cordic_rtl_TB.tcl
+close_sim

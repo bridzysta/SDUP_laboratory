@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="40" Path="C:/__Programowanie__/Repozytoria/SDUP_laboratory/lab_1/lab_1.xpr">
+<Project Version="7" Minor="40" Path="C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/1_lab/SDUP_laboratory/lab_1/lab_1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="5dab97a6b6ee49e38b318d85daef09ed"/>
@@ -32,7 +32,11 @@
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSABoardId" Val="zed"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
+<<<<<<< HEAD
     <Option Name="WTXSimLaunchSim" Val="8"/>
+=======
+    <Option Name="WTXSimLaunchSim" Val="4"/>
+>>>>>>> 5429148f5d7d99561ab25a3e0c55c8b084439dde
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -83,6 +87,14 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/cordic_rtl.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="cordic_rtl"/>
@@ -95,6 +107,10 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+<<<<<<< HEAD
+=======
+      <Filter Type="Srcs"/>
+>>>>>>> 5429148f5d7d99561ab25a3e0c55c8b084439dde
       <File Path="$PSRCDIR/sim_1/new/cordic_rtl_TB.sv">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>

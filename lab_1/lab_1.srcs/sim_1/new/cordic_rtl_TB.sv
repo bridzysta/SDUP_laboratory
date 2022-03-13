@@ -61,4 +61,8 @@ begin
         real_sin = real_sin / 1024;
         $display("Real values: sin=%f, cos=%f", real_sin, real_cos);
 end
+<<<<<<< HEAD
 endmodule
+=======
+endmodule
+>>>>>>> 5429148f5d7d99561ab25a3e0c55c8b084439dde
