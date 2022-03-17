@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "c:/users/dzial/documents/mikroelektronika_agh/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/ip_repo/cordic_ip_1.0/hdl/cordic_ip_v1_0_S00_AXI.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_ip_v1_0_S00_AXI
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "c:/users/dzial/documents/mikroelektronika_agh/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/2_lab/cordic_rtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "c:/users/dzial/documents/mikroelektronika_agh/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/ip_repo/cordic_ip_1.0/hdl/cordic_ip_v1_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_ip_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/dzial/documents/mikroelektronika_agh/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/ip_repo/edit_cordic_ip_v1_0.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

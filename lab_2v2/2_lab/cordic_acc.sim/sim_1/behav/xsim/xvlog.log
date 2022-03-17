@@ -1,0 +1,59 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/ip/mb_design_dlmb_v10_0/mb_design_dlmb_v10_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_dlmb_v10_0
+INFO: [VRFC 10-311] analyzing module mb_design_dlmb_v10_0_lmb_v10
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/ip/mb_design_ilmb_v10_0/mb_design_ilmb_v10_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_ilmb_v10_0_lmb_v10
+INFO: [VRFC 10-311] analyzing module mb_design_ilmb_v10_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/ip/mb_design_dlmb_bram_if_cntlr_0/mb_design_dlmb_bram_if_cntlr_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_dlmb_bram_if_cntlr_0
+INFO: [VRFC 10-311] analyzing module mb_design_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/ip/mb_design_ilmb_bram_if_cntlr_0/mb_design_ilmb_bram_if_cntlr_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_ilmb_bram_if_cntlr_0
+INFO: [VRFC 10-311] analyzing module mb_design_ilmb_bram_if_cntlr_0_lmb_bram_if_cntlr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/ip/mb_design_lmb_bram_0/sim/mb_design_lmb_bram_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_lmb_bram_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/ip/mb_design_mdm_1_0/mb_design_mdm_1_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_JTAG_CONTROL
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MB_BSCANE2
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MB_BUFG
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MB_FDC_1
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MB_FDRE_1
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MB_SRL16E
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MB_SRL16E__parameterized1
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MB_SRL16E__parameterized3
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MB_SRL16E__parameterized5
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MDM
+INFO: [VRFC 10-311] analyzing module mb_design_mdm_1_0_MDM_Core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_clk_wiz_1_0
+INFO: [VRFC 10-311] analyzing module mb_design_clk_wiz_1_0_mb_design_clk_wiz_1_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/ip/mb_design_rst_clk_wiz_1_100M_0/mb_design_rst_clk_wiz_1_100M_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_rst_clk_wiz_1_100M_0
+INFO: [VRFC 10-311] analyzing module mb_design_rst_clk_wiz_1_100M_0_cdc_sync
+INFO: [VRFC 10-311] analyzing module mb_design_rst_clk_wiz_1_100M_0_cdc_sync_0
+INFO: [VRFC 10-311] analyzing module mb_design_rst_clk_wiz_1_100M_0_lpf
+INFO: [VRFC 10-311] analyzing module mb_design_rst_clk_wiz_1_100M_0_proc_sys_reset
+INFO: [VRFC 10-311] analyzing module mb_design_rst_clk_wiz_1_100M_0_sequence_psr
+INFO: [VRFC 10-311] analyzing module mb_design_rst_clk_wiz_1_100M_0_upcnt_n
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/ip/mb_design_xbar_0/mb_design_xbar_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_xbar_0
+INFO: [VRFC 10-311] analyzing module mb_design_xbar_0_axi_crossbar_v2_1_20_addr_arbiter_sasd
+INFO: [VRFC 10-311] analyzing module mb_design_xbar_0_axi_crossbar_v2_1_20_axi_crossbar
+INFO: [VRFC 10-311] analyzing module mb_design_xbar_0_axi_crossbar_v2_1_20_crossbar_sasd
+INFO: [VRFC 10-311] analyzing module mb_design_xbar_0_axi_crossbar_v2_1_20_decerr_slave
+INFO: [VRFC 10-311] analyzing module mb_design_xbar_0_axi_crossbar_v2_1_20_splitter
+INFO: [VRFC 10-311] analyzing module mb_design_xbar_0_axi_crossbar_v2_1_20_splitter__parameterized0
+INFO: [VRFC 10-311] analyzing module mb_design_xbar_0_axi_register_slice_v2_1_19_axic_register_slice
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.ip_user_files/bd/mb_design/sim/mb_design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_7XQVZK
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_1KGGRVS
+INFO: [VRFC 10-311] analyzing module m02_couplers_imp_SWOCXT
+INFO: [VRFC 10-311] analyzing module m03_couplers_imp_1H7VOBD
+INFO: [VRFC 10-311] analyzing module mb_design
+INFO: [VRFC 10-311] analyzing module mb_design_microblaze_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module microblaze_0_local_memory_imp_UIMIJC
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_10TEBL8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mb_design_wrapper

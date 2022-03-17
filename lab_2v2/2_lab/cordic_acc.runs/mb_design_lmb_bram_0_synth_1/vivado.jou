@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 16 22:28:44 2022
+# Process ID: 12128
+# Current directory: C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.runs/mb_design_lmb_bram_0_synth_1
+# Command line: vivado.exe -log mb_design_lmb_bram_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_design_lmb_bram_0.tcl
+# Log file: C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.runs/mb_design_lmb_bram_0_synth_1/mb_design_lmb_bram_0.vds
+# Journal file: C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.runs/mb_design_lmb_bram_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mb_design_lmb_bram_0.tcl -notrace
