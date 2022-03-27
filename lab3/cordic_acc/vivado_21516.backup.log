@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 26 17:23:17 2022
+# Process ID: 21516
+# Current directory: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16556 C:\Users\dzial\Documents\Mikroelektronika_AGH\mgr\1_semestr\SDUP\lab3\cordic_acc\cordic_acc.xpr
+# Log file: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/vivado.log
+# Journal file: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/ip_repo/cordic_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 807.766 ; gain = 137.684
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.sdk -hwspec C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.sdk/design_acc_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.sdk -hwspec C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.sdk/design_acc_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 26 20:19:46 2022...

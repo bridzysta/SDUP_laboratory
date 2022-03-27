@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Mar 27 12:15:37 2022
+# Process ID: 19884
+# Current directory: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7220 C:\Users\dzial\Documents\Mikroelektronika_AGH\mgr\1_semestr\SDUP\lab3\cordic_acc\cordic_acc.xpr
+# Log file: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/vivado.log
+# Journal file: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.xpr
+update_compile_order -fileset sources_1
+reset_simulation -simset sim_1 -mode behavioral
+reset_run synth_1

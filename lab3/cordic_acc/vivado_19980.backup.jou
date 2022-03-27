@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar 24 10:23:43 2022
+# Process ID: 19980
+# Current directory: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17612 C:\Users\dzial\Documents\Mikroelektronika_AGH\mgr\1_semestr\SDUP\lab3\cordic_acc\cordic_acc.xpr
+# Log file: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/vivado.log
+# Journal file: C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.xpr
+reset_run design_acc_processing_system7_0_0_synth_1
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+file mkdir C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.sdk
+file copy -force C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.runs/impl_1/design_acc_wrapper.sysdef C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.sdk/design_acc_wrapper.hdf
+
+launch_sdk -workspace C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.sdk -hwspec C:/Users/dzial/Documents/Mikroelektronika_AGH/mgr/1_semestr/SDUP/lab3/cordic_acc/cordic_acc.sdk/design_acc_wrapper.hdf
