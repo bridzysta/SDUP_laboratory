@@ -71,20 +71,84 @@ s32 sin, cos;
     	print("Enter angle (in degrees, three digits 000 to 360)");
     	angle = read3DigitDecVal();
     	print("\n\r");
-    	//Convert to radians fxp(12:10)
-    	angle *= 1024; 	//Fixed-point (12:10)
-    	angle = (angle * PI ) >> 10; //Fixed-point multiplication
-    	angle /= 180; 	//angle in radians
+    	print("angle: ");
+    	printDecimalFXPVal(angle, 1, 3);
+    	print("\n\r");
+    	if(angle > 90 && angle < 180){
+    		angle = angle - 90;
+			//Convert to radians fxp(12:10)
+			angle *= 1024; 	//Fixed-point (12:10)
+			angle = (angle * PI ) >> 10; //Fixed-point multiplication
+			angle /= 180; 	//angle in radians
+			print("angle fixed-point: ");
+			printDecimalFXPVal(angle, 1, 3);
+			print("\n\r");
+			calculateCordicVal(angle, &sin, &cos);
+			print("Sinus value is ");
+			printDecimalFXPVal(-sin, 1024, 2);
+			print("\n\r");
+			print("Cosinus value is ");
+			printDecimalFXPVal(cos, 1024, 2);
+			print("\n\r");
+			print("\n\r");
+    	}
+    	else if(angle >= 180 &&  angle <= 270){
+    		angle = angle - 180;
+			//Convert to radians fxp(12:10)
+			angle *= 1024; 	//Fixed-point (12:10)
+			angle = (angle * PI ) >> 10; //Fixed-point multiplication
+			angle /= 180; 	//angle in radians
+			print("angle fixed-point: ");
+			printDecimalFXPVal(angle, 1, 3);
+			print("\n\r");
+			calculateCordicVal(angle, &sin, &cos);
+			print("Sinus value is ");
+			printDecimalFXPVal(-sin, 1024, 2);
+			print("\n\r");
+			print("Cosinus value is ");
+			printDecimalFXPVal(-cos, 1024, 2);
+			print("\n\r");
+			print("\n\r");
+    	}
+    	else if(angle > 270 && angle < 360){
+    		angle = angle - 270;
+			//Convert to radians fxp(12:10)
+			angle *= 1024; 	//Fixed-point (12:10)
+			angle = (angle * PI ) >> 10; //Fixed-point multiplication
+			angle /= 180; 	//angle in radians
+			print("angle fixed-point: ");
+			printDecimalFXPVal(angle, 1, 3);
+			print("\n\r");
+			calculateCordicVal(angle, &sin, &cos);
+			print("Sinus value is ");
+			printDecimalFXPVal(sin, 1024, 2);
+			print("\n\r");
+			print("Cosinus value is ");
+			printDecimalFXPVal(-cos, 1024, 2);
+			print("\n\r");
+			print("\n\r");
+    	}
+    	else{
+    		if(angle == 360){
+    			print("inside if");
+    			angle = 0;
+    		}
 
-    	calculateCordicVal(angle, &sin, &cos);
-
-    	print("Sinus value is ");
-    	printDecimalFXPVal(sin, 1024, 2);
-    	print("\n\r");
-    	print("Cosinus value is ");
-    	printDecimalFXPVal(cos, 1024, 2);
-    	print("\n\r");
-    	print("\n\r");
+			angle *= 1024; 	//Fixed-point (12:10)
+			angle = (angle * PI ) >> 10; //Fixed-point multiplication
+			angle /= 180; 	//angle in radians
+			print("angle fixed-point: ");
+			printDecimalFXPVal(angle, 1, 3);
+			print("\n\r");
+			calculateCordicVal(angle, &sin, &cos);
+			print("Sinus value is ");
+			printDecimalFXPVal(sin, 1024, 2);
+			print("\n\r");
+			print("Cosinus value is ");
+			printDecimalFXPVal(cos, 1024, 2);
+			print("\n\r");
+			print("\n\r");
+    	}
     }
 
 }
