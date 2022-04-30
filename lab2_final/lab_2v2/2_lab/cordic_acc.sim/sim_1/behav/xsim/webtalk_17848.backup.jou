@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 23 18:21:07 2022
+# Process ID: 17848
+# Current directory: C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.sim/sim_1/behav/xsim/xsim.dir/mb_design_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/__Programowanie__/Vivado/PrzemyslawKurzak/SDUP_2022_temp/lab_2v2/2_lab/cordic_acc.sim/sim_1/behav/xsim/xsim.dir/mb_design_tb_behav/webtalk/xsim_webtalk.tcl -notrace

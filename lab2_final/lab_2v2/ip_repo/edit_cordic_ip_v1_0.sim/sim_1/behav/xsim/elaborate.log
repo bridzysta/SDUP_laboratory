@@ -1,0 +1,15 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 4c82df1249d34153a24e65b110699fea --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cordic_ip_v1_0_behav xil_defaultlib.cordic_ip_v1_0 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'angle_in' [c:/users/dzial/documents/mikroelektronika_agh/mgr/1_semestr/systemy_dedykowane_w_ukladach_programowalnych/ip_repo/cordic_ip_1.0/hdl/cordic_ip_v1_0_S00_AXI.sv:423]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.cordic_rtl
+Compiling module xil_defaultlib.cordic_ip_v1_0_S00_AXI_default
+Compiling module xil_defaultlib.cordic_ip_v1_0
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cordic_ip_v1_0_behav

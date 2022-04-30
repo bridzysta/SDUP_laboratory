@@ -1,0 +1,6 @@
+10:36:31 INFO  : Registering command handlers for SDK TCF services
+10:36:32 INFO  : Launching XSCT server: xsct.bat -interactive C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\temp_xsdb_launch_script.tcl
+10:36:37 INFO  : XSCT server has started successfully.
+10:36:37 INFO  : Successfully done setting XSCT server connection channel  
+10:36:45 INFO  : Successfully done setting SDK workspace  
+10:36:45 INFO  : Processing command line option -hwspec C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper.hdf.
