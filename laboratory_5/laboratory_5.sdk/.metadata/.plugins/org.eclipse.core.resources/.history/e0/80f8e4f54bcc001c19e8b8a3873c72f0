@@ -13,6 +13,16 @@
 #include "xil_printf.h"
 #include "str_acc.h"
 
+/*
+	Which changes to add?
+		- 2^11 				-> 2048
+		- fixed-point 		-> 13:11
+		- NBR_OF_ANGLES 	-> (3,14 * 1024) = 3216
+		- 2043 				-> 0x7ff
+		- 0:1607 			-> negative numbers
+		- 1608:3215 		-> positive numbers
+*/		
+
 //Values from range -pi/2 to 0
 
 //All possible values for the range from 0 to pi/2 in fixed-point (13:10)
@@ -27,6 +37,7 @@ int main()
 u32 i; //Iterators
 u32 nbr_of_results;
 s32 max=0;  //Maximum value m
+s32 min=0;	//Minimum value m
 s32 val = 0;  //sin(x) + cos(x) function value
 s32 sin, cos; //Auxiliary sinus and cosinus values
 
@@ -35,7 +46,7 @@ s32 sin, cos; //Auxiliary sinus and cosinus values
 	if ( init_cordic_acc() == XST_FAILURE )
 		goto error;
 
-    print("Let's calculate the maximum of sin(x)+cos(x) in 0<x<pi/2 \n\r");
+    print("Let's calculate the maximum of sin(x)+cos(x) in -pi/2<x<pi/2 \n\r");
 
     //Initialize angles buffer with values in range from 0 to pi/2
     //As fix-point(13:10), we distribute values 0 to 1607 ( = pi/2 * 1024)
@@ -45,19 +56,28 @@ s32 sin, cos; //Auxiliary sinus and cosinus values
     cordic_calc(angles, NBR_OF_ANGLES, sin_cos, &nbr_of_results );
 
 
-    for(i=0; i<nbr_of_results; i++){
+    for(i=0; i<nbr_of_results; i++)
+    {
     	sin = RESULT_REG_SIN(sin_cos[i]);
     	cos = RESULT_REG_COS(sin_cos[i]);
     	val = sin + cos;
+    	xil_printf("Value of variable val: %d \n\r", val);
     	if (val > max) max = val;
+    	if (val < min) min = val;
     }
     
-    if (max >= 0){	
+    if (max >= 0)
+    {
+    	//positive values
 		xil_printf("Maximum value of sin(x)+cos(x) is %d.%d \n\r", max>>10, ((max&0x3ff)*100)/1024);
-	}
-	else{
+		xil_printf("Minimum value of sin(x)+cos(x) is %d.%d \n\r", min>>10, ((min&0x3ff)*100)/1024);
+    }
+	else
+	{
+		//negative values
 		max=-max;
 		xil_printf("Maximum value of sin(x)+cos(x) is -%d.%d \n\r", max>>10, ((max&0x3ff)*100)/1024);
+		xil_printf("Minimum value of sin(x)+cos(x) is %d.%d \n\r", min>>10, ((min&0x3ff)*100)/1024);
 	}	
 	
 error:

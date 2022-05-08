@@ -4,3 +4,713 @@
 10:36:37 INFO  : Successfully done setting XSCT server connection channel  
 10:36:45 INFO  : Successfully done setting SDK workspace  
 10:36:45 INFO  : Processing command line option -hwspec C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper.hdf.
+09:20:23 INFO  : Registering command handlers for SDK TCF services
+09:20:25 INFO  : Launching XSCT server: xsct.bat -interactive C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\temp_xsdb_launch_script.tcl
+09:20:30 INFO  : XSCT server has started successfully.
+09:20:37 INFO  : Successfully done setting XSCT server connection channel  
+09:20:37 INFO  : Successfully done setting SDK workspace  
+09:20:37 INFO  : Processing command line option -hwspec C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper.hdf.
+09:20:37 INFO  : Checking for hwspec changes in the project stream_acc_design_wrapper_hw_platform_0.
+09:20:48 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1651734985654,  Project:1651134893434
+09:20:48 INFO  : The hardware specification for project 'stream_acc_design_wrapper_hw_platform_0' is different from C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper.hdf.
+09:20:50 INFO  : Copied contents of C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper.hdf into \stream_acc_design_wrapper_hw_platform_0\system.hdf.
+09:21:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:21:12 INFO  : 
+09:21:13 INFO  : Updating hardware inferred compiler options for find_max.
+09:21:13 INFO  : Clearing existing target manager status.
+09:43:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:43:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+09:43:24 INFO  : FPGA configured successfully with bitstream "C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/stream_acc_design_wrapper.bit"
+09:45:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:45:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+09:45:40 INFO  : FPGA configured successfully with bitstream "C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/stream_acc_design_wrapper.bit"
+09:48:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:48:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+09:48:20 INFO  : FPGA configured successfully with bitstream "C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/stream_acc_design_wrapper.bit"
+09:50:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:50:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+09:50:56 INFO  : FPGA configured successfully with bitstream "C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/stream_acc_design_wrapper.bit"
+09:53:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:53:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+09:53:31 INFO  : FPGA configured successfully with bitstream "C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/stream_acc_design_wrapper.bit"
+10:09:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:09:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:09:49 INFO  : FPGA configured successfully with bitstream "C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/stream_acc_design_wrapper.bit"
+10:10:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:10:15 INFO  : 'fpga -state' command is executed.
+10:10:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:10:16 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:10:16 INFO  : 'jtag frequency' command is executed.
+10:10:16 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:10:16 INFO  : Context for 'APU' is selected.
+10:10:16 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:10:16 INFO  : 'configparams force-mem-access 1' command is executed.
+10:10:16 INFO  : Context for 'APU' is selected.
+10:10:16 INFO  : 'stop' command is executed.
+10:10:17 INFO  : 'ps7_init' command is executed.
+10:10:17 INFO  : 'ps7_post_config' command is executed.
+10:10:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:10:17 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:10:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:10:17 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:10:17 INFO  : 'configparams force-mem-access 0' command is executed.
+10:10:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:10:17 INFO  : Memory regions updated for context APU
+10:10:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:10:18 INFO  : 'con' command is executed.
+10:10:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:10:18 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:15:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:15:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:15:22 INFO  : FPGA configured successfully with bitstream "C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/stream_acc_design_wrapper.bit"
+10:15:38 INFO  : Disconnected from the channel tcfchan#1.
+10:15:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:15:39 INFO  : 'fpga -state' command is executed.
+10:15:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:15:40 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:15:40 INFO  : 'jtag frequency' command is executed.
+10:15:40 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:15:40 INFO  : Context for 'APU' is selected.
+10:15:44 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:15:44 INFO  : 'configparams force-mem-access 1' command is executed.
+10:15:44 INFO  : Context for 'APU' is selected.
+10:15:44 INFO  : 'stop' command is executed.
+10:15:44 INFO  : 'ps7_init' command is executed.
+10:15:44 INFO  : 'ps7_post_config' command is executed.
+10:15:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:15:44 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:15:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:15:44 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:15:44 INFO  : 'configparams force-mem-access 0' command is executed.
+10:15:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:15:45 INFO  : Memory regions updated for context APU
+10:15:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:15:45 INFO  : 'con' command is executed.
+10:15:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:15:45 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:18:48 INFO  : Disconnected from the channel tcfchan#2.
+10:18:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:18:49 INFO  : 'fpga -state' command is executed.
+10:18:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:18:50 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:18:50 INFO  : 'jtag frequency' command is executed.
+10:18:50 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:18:50 INFO  : Context for 'APU' is selected.
+10:18:50 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:18:50 INFO  : 'configparams force-mem-access 1' command is executed.
+10:18:50 INFO  : Context for 'APU' is selected.
+10:18:50 INFO  : 'stop' command is executed.
+10:18:51 INFO  : 'ps7_init' command is executed.
+10:18:51 INFO  : 'ps7_post_config' command is executed.
+10:18:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:18:51 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:18:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:18:51 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:18:51 INFO  : 'configparams force-mem-access 0' command is executed.
+10:18:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:18:51 INFO  : Memory regions updated for context APU
+10:18:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:18:52 INFO  : 'con' command is executed.
+10:18:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:18:52 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:20:22 INFO  : Disconnected from the channel tcfchan#3.
+10:20:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:20:24 INFO  : 'fpga -state' command is executed.
+10:20:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:20:24 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:20:24 INFO  : 'jtag frequency' command is executed.
+10:20:24 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:20:24 INFO  : Context for 'APU' is selected.
+10:20:24 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:20:24 INFO  : 'configparams force-mem-access 1' command is executed.
+10:20:25 INFO  : Context for 'APU' is selected.
+10:20:25 INFO  : 'stop' command is executed.
+10:20:25 INFO  : 'ps7_init' command is executed.
+10:20:25 INFO  : 'ps7_post_config' command is executed.
+10:20:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:20:25 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:20:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:20:26 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:20:26 INFO  : 'configparams force-mem-access 0' command is executed.
+10:20:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:20:26 INFO  : Memory regions updated for context APU
+10:20:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:20:26 INFO  : 'con' command is executed.
+10:20:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:20:26 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:27:29 INFO  : Disconnected from the channel tcfchan#4.
+10:27:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:27:31 INFO  : 'fpga -state' command is executed.
+10:27:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:27:31 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:27:31 INFO  : 'jtag frequency' command is executed.
+10:27:31 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:27:31 INFO  : Context for 'APU' is selected.
+10:27:31 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:27:31 INFO  : 'configparams force-mem-access 1' command is executed.
+10:27:32 INFO  : Context for 'APU' is selected.
+10:27:32 INFO  : 'stop' command is executed.
+10:27:33 INFO  : 'ps7_init' command is executed.
+10:27:33 INFO  : 'ps7_post_config' command is executed.
+10:27:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:27:33 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:27:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:27:33 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:27:33 INFO  : 'configparams force-mem-access 0' command is executed.
+10:27:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:27:33 INFO  : Memory regions updated for context APU
+10:27:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:27:33 INFO  : 'con' command is executed.
+10:27:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:27:33 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:28:22 INFO  : Disconnected from the channel tcfchan#5.
+10:28:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:28:24 INFO  : 'fpga -state' command is executed.
+10:28:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:28:24 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:28:24 INFO  : 'jtag frequency' command is executed.
+10:28:24 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:28:24 INFO  : Context for 'APU' is selected.
+10:28:24 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:28:24 INFO  : 'configparams force-mem-access 1' command is executed.
+10:28:24 INFO  : Context for 'APU' is selected.
+10:28:24 INFO  : 'stop' command is executed.
+10:28:25 INFO  : 'ps7_init' command is executed.
+10:28:25 INFO  : 'ps7_post_config' command is executed.
+10:28:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:28:25 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:28:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:28:25 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:28:25 INFO  : 'configparams force-mem-access 0' command is executed.
+10:28:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:28:26 INFO  : Memory regions updated for context APU
+10:28:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:28:26 INFO  : 'con' command is executed.
+10:28:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:28:26 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:31:36 INFO  : Disconnected from the channel tcfchan#6.
+10:31:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:31:37 INFO  : 'fpga -state' command is executed.
+10:31:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:31:38 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:31:38 INFO  : 'jtag frequency' command is executed.
+10:31:38 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:31:38 INFO  : Context for 'APU' is selected.
+10:31:38 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:31:38 INFO  : 'configparams force-mem-access 1' command is executed.
+10:31:38 INFO  : Context for 'APU' is selected.
+10:31:38 INFO  : 'stop' command is executed.
+10:31:39 INFO  : 'ps7_init' command is executed.
+10:31:39 INFO  : 'ps7_post_config' command is executed.
+10:31:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:31:39 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:31:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:31:39 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:31:39 INFO  : 'configparams force-mem-access 0' command is executed.
+10:31:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:31:40 INFO  : Memory regions updated for context APU
+10:31:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:31:40 INFO  : 'con' command is executed.
+10:31:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:31:40 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:32:32 INFO  : Disconnected from the channel tcfchan#7.
+10:32:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:32:33 INFO  : 'fpga -state' command is executed.
+10:32:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:32:34 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:32:34 INFO  : 'jtag frequency' command is executed.
+10:32:34 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:32:34 INFO  : Context for 'APU' is selected.
+10:32:34 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:32:34 INFO  : 'configparams force-mem-access 1' command is executed.
+10:32:34 INFO  : Context for 'APU' is selected.
+10:32:34 INFO  : 'stop' command is executed.
+10:32:35 INFO  : 'ps7_init' command is executed.
+10:32:35 INFO  : 'ps7_post_config' command is executed.
+10:32:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:32:35 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:32:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:32:35 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:32:35 INFO  : 'configparams force-mem-access 0' command is executed.
+10:32:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:32:36 INFO  : Memory regions updated for context APU
+10:32:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:32:36 INFO  : 'con' command is executed.
+10:32:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:32:36 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:37:06 INFO  : Disconnected from the channel tcfchan#8.
+10:37:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:37:08 INFO  : 'fpga -state' command is executed.
+10:37:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:37:08 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:37:08 INFO  : 'jtag frequency' command is executed.
+10:37:08 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:37:08 INFO  : Context for 'APU' is selected.
+10:37:08 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:37:08 INFO  : 'configparams force-mem-access 1' command is executed.
+10:37:08 INFO  : Context for 'APU' is selected.
+10:37:08 INFO  : 'stop' command is executed.
+10:37:09 INFO  : 'ps7_init' command is executed.
+10:37:09 INFO  : 'ps7_post_config' command is executed.
+10:37:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:37:09 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:37:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:37:09 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:37:09 INFO  : 'configparams force-mem-access 0' command is executed.
+10:37:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:37:10 INFO  : Memory regions updated for context APU
+10:37:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:37:10 INFO  : 'con' command is executed.
+10:37:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:37:10 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:38:53 INFO  : Disconnected from the channel tcfchan#9.
+10:38:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:38:54 INFO  : 'fpga -state' command is executed.
+10:38:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:38:54 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:38:54 INFO  : 'jtag frequency' command is executed.
+10:38:54 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:38:54 INFO  : Context for 'APU' is selected.
+10:38:54 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:38:54 INFO  : 'configparams force-mem-access 1' command is executed.
+10:38:54 INFO  : Context for 'APU' is selected.
+10:38:54 INFO  : 'stop' command is executed.
+10:38:55 INFO  : 'ps7_init' command is executed.
+10:38:55 INFO  : 'ps7_post_config' command is executed.
+10:38:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:55 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:38:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:56 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:38:56 INFO  : 'configparams force-mem-access 0' command is executed.
+10:38:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:38:56 INFO  : Memory regions updated for context APU
+10:38:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:56 INFO  : 'con' command is executed.
+10:38:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:38:56 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:39:54 INFO  : Disconnected from the channel tcfchan#10.
+10:39:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:39:55 INFO  : 'fpga -state' command is executed.
+10:39:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:39:55 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:39:55 INFO  : 'jtag frequency' command is executed.
+10:39:55 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:39:55 INFO  : Context for 'APU' is selected.
+10:39:55 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:39:55 INFO  : 'configparams force-mem-access 1' command is executed.
+10:39:55 INFO  : Context for 'APU' is selected.
+10:39:55 INFO  : 'stop' command is executed.
+10:39:56 INFO  : 'ps7_init' command is executed.
+10:39:56 INFO  : 'ps7_post_config' command is executed.
+10:39:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:39:56 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:39:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:39:57 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:39:57 INFO  : 'configparams force-mem-access 0' command is executed.
+10:39:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:39:57 INFO  : Memory regions updated for context APU
+10:39:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:39:57 INFO  : 'con' command is executed.
+10:39:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:39:57 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:43:00 INFO  : Disconnected from the channel tcfchan#11.
+10:43:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:43:01 INFO  : 'fpga -state' command is executed.
+10:43:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:43:02 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:43:02 INFO  : 'jtag frequency' command is executed.
+10:43:02 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:43:02 INFO  : Context for 'APU' is selected.
+10:43:02 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:43:02 INFO  : 'configparams force-mem-access 1' command is executed.
+10:43:02 INFO  : Context for 'APU' is selected.
+10:43:02 INFO  : 'stop' command is executed.
+10:43:03 INFO  : 'ps7_init' command is executed.
+10:43:03 INFO  : 'ps7_post_config' command is executed.
+10:43:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:43:03 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:43:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:43:04 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:43:04 INFO  : 'configparams force-mem-access 0' command is executed.
+10:43:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:43:04 INFO  : Memory regions updated for context APU
+10:43:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:43:04 INFO  : 'con' command is executed.
+10:43:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:43:04 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:45:09 INFO  : Disconnected from the channel tcfchan#12.
+10:45:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:45:10 INFO  : 'fpga -state' command is executed.
+10:45:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:45:11 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:45:11 INFO  : 'jtag frequency' command is executed.
+10:45:11 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:45:11 INFO  : Context for 'APU' is selected.
+10:45:11 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:45:11 INFO  : 'configparams force-mem-access 1' command is executed.
+10:45:11 INFO  : Context for 'APU' is selected.
+10:45:11 INFO  : 'stop' command is executed.
+10:45:12 INFO  : 'ps7_init' command is executed.
+10:45:12 INFO  : 'ps7_post_config' command is executed.
+10:45:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:45:12 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:45:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:45:12 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:45:12 INFO  : 'configparams force-mem-access 0' command is executed.
+10:45:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:45:12 INFO  : Memory regions updated for context APU
+10:45:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:45:13 INFO  : 'con' command is executed.
+10:45:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:45:13 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:49:00 INFO  : Disconnected from the channel tcfchan#13.
+10:49:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:49:02 INFO  : 'fpga -state' command is executed.
+10:49:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:49:02 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:49:02 INFO  : 'jtag frequency' command is executed.
+10:49:02 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:49:02 INFO  : Context for 'APU' is selected.
+10:49:02 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:49:02 INFO  : 'configparams force-mem-access 1' command is executed.
+10:49:02 INFO  : Context for 'APU' is selected.
+10:49:02 INFO  : 'stop' command is executed.
+10:49:03 INFO  : 'ps7_init' command is executed.
+10:49:03 INFO  : 'ps7_post_config' command is executed.
+10:49:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:49:03 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:49:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:49:04 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:49:04 INFO  : 'configparams force-mem-access 0' command is executed.
+10:49:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:49:04 INFO  : Memory regions updated for context APU
+10:49:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:49:04 INFO  : 'con' command is executed.
+10:49:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:49:04 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:49:23 INFO  : Disconnected from the channel tcfchan#14.
+10:49:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248586007" && level==0} -index 1' command is executed.
+10:49:24 INFO  : 'fpga -state' command is executed.
+10:49:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:49:25 INFO  : Jtag cable 'Digilent Zed 210248586007' is selected.
+10:49:25 INFO  : 'jtag frequency' command is executed.
+10:49:25 INFO  : Sourcing of 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:49:25 INFO  : Context for 'APU' is selected.
+10:49:25 INFO  : Hardware design information is loaded from 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf'.
+10:49:25 INFO  : 'configparams force-mem-access 1' command is executed.
+10:49:25 INFO  : Context for 'APU' is selected.
+10:49:25 INFO  : 'stop' command is executed.
+10:49:25 INFO  : 'ps7_init' command is executed.
+10:49:25 INFO  : 'ps7_post_config' command is executed.
+10:49:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:49:25 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:49:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:49:26 INFO  : The application 'C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:49:26 INFO  : 'configparams force-mem-access 0' command is executed.
+10:49:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+loadhw -hw C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/stream_acc_design_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+dow C:/__Programowanie__/Repozytoria/SDUP_laboratory/laboratory_5/laboratory_5.sdk/find_max/Debug/find_max.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:49:26 INFO  : Memory regions updated for context APU
+10:49:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:49:26 INFO  : 'con' command is executed.
+10:49:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248586007"} -index 0
+con
+----------------End of Script----------------
+
+10:49:26 INFO  : Launch script is exported to file 'C:\__Programowanie__\Repozytoria\SDUP_laboratory\laboratory_5\laboratory_5.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_find_max.elf_on_local.tcl'
+10:54:17 INFO  : Disconnected from the channel tcfchan#15.
