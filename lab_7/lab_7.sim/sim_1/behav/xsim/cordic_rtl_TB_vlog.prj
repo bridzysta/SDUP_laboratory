@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../Opt_Cordic/cordic_rtl.sv" \
+"../../../../../Opt_Cordic/cordic_rtl2.sv" \
+"../../../../../Opt_Cordic/cordic_rtl3.sv" \
+"../../../../../Opt_Cordic/cordic_rtl4.sv" \
+"../../../../../Opt_Cordic/cordic_rtl5.sv" \
+"../../../../../Opt_Cordic/cordic_rtl6.sv" \
+"../../../../../Opt_Cordic/cordic_rtl7.sv" \
+"../../../../../Opt_Cordic/cordic_rtl_tb.sv" \
+"../../../../../Opt_Cordic/cordic_rtl7_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl5.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl5
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl6.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl7.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl7
+INFO: [VRFC 10-2458] undeclared symbol S1toS3, assumed default net type wire [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl7.sv:53]
+INFO: [VRFC 10-2458] undeclared symbol S3toS4, assumed default net type wire [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl7.sv:65]
+INFO: [VRFC 10-2458] undeclared symbol S4toS3, assumed default net type wire [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl7.sv:66]
+INFO: [VRFC 10-2458] undeclared symbol S4toS12, assumed default net type wire [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl7.sv:95]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl_TB
+WARNING: [VRFC 10-3824] variable 'x2' must explicitly be declared as automatic or static [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl_tb.sv:7]
+WARNING: [VRFC 10-3824] variable 'x2' must explicitly be declared as automatic or static [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl_tb.sv:15]
+WARNING: [VRFC 10-3824] variable 'cosx4' must explicitly be declared as automatic or static [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl_tb.sv:19]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl7_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_rtl7_TB
+WARNING: [VRFC 10-3824] variable 'x2' must explicitly be declared as automatic or static [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl7_tb.sv:7]
+WARNING: [VRFC 10-3824] variable 'x2' must explicitly be declared as automatic or static [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl7_tb.sv:15]
+WARNING: [VRFC 10-3824] variable 'cosx4' must explicitly be declared as automatic or static [C:/__Programowanie__/Repozytoria/SDUP_laboratory/Opt_Cordic/cordic_rtl7_tb.sv:19]
